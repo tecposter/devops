@@ -67,7 +67,7 @@ fi
 dotconfig_dir="$HOME/.dotconfig"
 
 [ ! -d "$dotconfig_dir" ] \
-    && git clone git@github.com:tecposter/dotconfig.git $dotconfig_dir
+    && git clone https://github.com/tecposter/dotconfig.git $dotconfig_dir
 
 [ ! -d "$dotconfig_dir/nvim/bundle" ] && mkdir "$dotconfig_dir/nvim/bundle"
 
