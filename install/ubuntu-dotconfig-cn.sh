@@ -11,4 +11,5 @@ devops_dir="$HOME/.devops"
 [ ! -d "$devops_dir" ] \
     && git clone https://github.com/tecposter/devops.git $devops_dir
 
-bash "$devops_dir/ubuntu-dotconfig-cn.sh"
+cd "$devops_dir"
+bash "./ubuntu-dotconfig-cn.sh"
