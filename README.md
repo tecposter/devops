@@ -3,7 +3,7 @@
 ## how to use
 
 ```
-curl -s https://raw.githubusercontent.com/tecposter/devops/master/ubuntu-dotconfig-cn.sh | bash
+curl -s https://raw.githubusercontent.com/tecposter/devops/master/install/ubuntu-dotconfig-cn.sh | bash
 ```
 
 ## Prepare
