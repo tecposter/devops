@@ -5,8 +5,11 @@
 
 #set -ex
 
-. ./lib/is_installed.sh
-. ./ubuntu/locale.sh
+script=$(readlink -f "$0")
+scriptDir=$(dirname "$script")
+
+. "$scriptDir/lib/is_installed.sh"
+. "$scriptDir/ubuntu/locale.sh"
 
 [ $(is_installed git) -eq 0 ] && sudo apt install git
 
