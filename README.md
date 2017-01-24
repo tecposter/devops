@@ -1,5 +1,11 @@
 # DevOps
 
+## how to use
+
+```
+curl -s https://raw.githubusercontent.com/tecposter/devops/master/ubuntu-dotconfig-cn.sh | bash
+```
+
 ## Prepare
 
 new user
@@ -65,5 +71,7 @@ Host example.com
 
 ubuntu upgrade to 16.04
 ```
+sudo apt update
+sudo apt upgrade
 sudo do-release-upgrade
 ```
