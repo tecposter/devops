@@ -61,3 +61,9 @@ Host example.com
     Port 5023
     User {UserName}
 ```
+
+
+ubuntu upgrade to 16.04
+```
+sudo do-release-upgrade
+```
