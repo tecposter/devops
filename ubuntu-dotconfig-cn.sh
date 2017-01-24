@@ -29,13 +29,13 @@ fi
 
 if [ -z "$LC_CTYPE" ]; then
 	echo 'export LC_CTYPE=en_US.UTF-8' >> "$profile_file"
-	export LC_CTYPE=en_US=UTF-8
+	export LC_CTYPE=en_US.UTF-8
 	echo "$profile_file: LC_CTYPE=en_US.UTF-8"
 fi
 
 if [ -z "$LC_ALL" ]; then
 	echo 'export LC_ALL=en_US.UTF-8' >> "$profile_file"
-	export LC_ALL=en_US=UTF-8
+	export LC_ALL=en_US.UTF-8
 	echo "$profile_file: LC_ALL=en_US.UTF-8"
 fi
 
