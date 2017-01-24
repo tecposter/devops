@@ -21,7 +21,7 @@ if [ ! -d "$HOME/.pip" ]; then
     echo "index-url = https://pypi.tuna.tsinghua.edu.cn/simple" >> "$HOME/.pip/pip.conf"
 
     sudo apt-get install python3-pip
-    pip3 install neovim
+    pip3 install --user neovim 
 fi
 
 [ $(is_installed tmux) -eq 0 ] && sudo apt install tmux
